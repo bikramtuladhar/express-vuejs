@@ -38,7 +38,7 @@ module.exports = merge(baseWebpackConfig, {
             caches: {
                 main: [
                     'index.html',
-                    'app.js'
+                    '*.js',
                 ],
                 optional: [
                     ':rest:'

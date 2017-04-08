@@ -5,12 +5,12 @@ import Hello from '@/components/Hello'
 Vue.use(Router)
 
 export default new Router({
-  history: true,
-  routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    }
-  ]
+    mode: 'history',
+    routes: [
+        {
+            path: '/',
+            name: 'Hello',
+            component: Hello
+        }
+    ]
 })
